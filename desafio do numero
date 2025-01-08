@@ -1,0 +1,10 @@
+alert ("Este é o jogo do numero secreto");
+let numeroSecreto = 2;
+let chute = prompt ("Escolha um número entre 0 e 10");
+ 
+if (chute == numeroSecreto ) {
+    alert (`Voce acertou o numero secreto (${numeroSecreto})`);
+} else
+ {
+   alert(`O numero secreto era ${numeroSecreto}, mas voce escolheu ${chute}`)
+}
